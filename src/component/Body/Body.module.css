@@ -1,0 +1,141 @@
+.body {
+    grid-area: body;
+    background-color: #efeded;
+    overflow-y: scroll;
+}
+
+.body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px 500px;
+    grid-template-areas: 'bodyNavbar bodyNavbar' 'bodyProduct bodyProduct';
+    /* grid-gap: 10px; */
+}
+
+.bodyNavbar {
+    grid-area: bodyNavbar;
+    background-color: #ededed;
+    width: 100%;
+    /* margin: 0% 8%; */
+}
+
+.bodyProduct {
+    grid-area: bodyProduct;
+    background-color: #efeded;
+    width: 100%;
+    margin: 11% 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+
+.body {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.img {
+    width: 100%;
+    height: auto;
+    margin: 0% 0%;
+}
+
+.card {
+    border: 1px solid #ebebeb;
+    width: 20%;
+    height: auto;
+    background: white;
+    margin: 2% 2%;
+}
+
+.card:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+.image {
+    width: 100%;
+    margin: 9% 0%;
+    height: 50%;
+}
+
+.price {
+    font-size: 22px;
+    margin: 0% 8%;
+}
+
+.title {
+    font-size: 21px;
+    margin: 3% 8%;
+    font-weight: 400;
+    color: #949494;
+}
+
+.btn {
+    width: 85%;
+    height: 10%;
+    margin: 0% 7%;
+}
+
+@media only screen and (max-width:2890px)and(min-width:1800px) {
+    .img {
+        width: 100%;
+        height: 174%;
+        margin: 0% -8%;
+    }
+    .bodyProduct{
+        border: 1px solid #ebebeb;
+        width: 20%;
+        height: 335px;
+        background: white;
+        margin: -6% 2%;
+    }
+}
+
+@media only screen and (max-width:994px) {
+    .body {
+        grid-column: 1/6;
+        width: 100%;
+    }
+    .img {
+        width: 111%;
+        height: 113%;
+        margin: 1% -8%;
+    }
+    .card {
+        border: 1px solid #ebebeb;
+        width: 29%;
+        height: 253px;
+        background: white;
+        margin: 1% 1%;
+    }
+    .image {
+        width: 44%;
+        margin: 5% 28%;
+        height: 113px;
+    }
+    .bodyProduct {
+        grid-area: bodyProduct;
+        background-color: #efeded;
+        width: 100%;
+        margin: 5% 3%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .price {
+        font-size: 15px;
+    }
+    .title {
+        font-size: 17px;
+        margin: 6% 8%;
+        font-weight: 300;
+        color: #949494;
+        margin-top: 2%;
+    }
+}

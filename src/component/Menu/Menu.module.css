@@ -1,0 +1,56 @@
+.menu {
+    grid-area: menu;
+    overflow-y: scroll;
+    text-align: center;
+    
+}
+.menu::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.menu {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.btn {
+    width: 41%;
+    height: 11%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 6px;
+    border: none;
+    margin: 1% 1%;
+}
+
+.fruits {
+    font-size: 11px;
+    font-weight: 100;
+}
+
+.s {
+    font-size: 38px;
+    margin: 15% 0%;
+}
+
+/* response */
+
+@media screen and (max-width:1450px) and (min-width:1099px) {
+    .btn {
+        width: 47%;
+        height: 13%;
+    }
+}
+
+@media screen and (max-width:1099px) and (min-width:995px) {
+    .btn {
+        width: 47%;
+        height: 13%;
+    }
+}
+
+@media screen and (max-width:994px) {
+    .menu {
+        display: none;
+    }
+    
+}

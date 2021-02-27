@@ -1,0 +1,96 @@
+.basket {
+  
+    width: 33%;
+    height: 99%;
+    background: rgb(255 255 255);
+    position: fixed;
+    right: 0%;
+    -webkit-box-shadow: -13px 1px 16px -7px rgba(174, 174, 174, 0.2);
+    -moz-box-shadow: -13px 1px 16px -7px rgba(174, 174, 174, 0.2);
+    box-shadow: -13px 1px 16px -7px rgba(174, 174, 174, 0.2);
+}
+
+.icons {
+    position: fixed;
+    right: 2%;
+    color: #cac9c9;
+    margin-top: 16px;
+}
+
+.icon {
+    margin: 9px 2%;
+    color: rgb(0, 158, 127);
+    font-size: 30px;
+}
+
+.hr {
+    height: 2px;
+    background: #efefef;
+    border: none;
+}
+
+.basketNav {
+    display: flex;
+}
+
+.faShoppingBasket {
+    font-size: 100px;
+    color: rgb(0, 158, 127);
+    margin: 15% 35%;
+    margin-bottom: 0%;
+}
+
+.title {
+    margin: 15% 29%;
+    color: rgb(148 146 146);
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.voucher {
+    font-size: 18px;
+    font-weight: 700;
+    color: #469f80;
+    margin: 59% 26%;
+    margin-bottom: 0%;
+}
+
+.BasketBottom {
+    width: 95%;
+    height: 7%;
+    background: #469f80;
+    margin: 17% 3%;
+    margin-bottom: 0%;
+    border-radius: 19px;
+    border: none;
+    margin-top: 4%;
+    display: flex;
+}
+
+.Checkout {
+    margin: 3% 5%;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 0%;
+    color: white;
+}
+
+.price {
+    border: 1px solid white;
+    width: 25%;
+    height: 41px;
+    border-radius: 50px;
+    margin: 2px 45%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+    background: aliceblue;
+    color: #469f80;
+}
+.price h1{
+    font-size: 20px;
+    text-align: center;
+    margin: 6% 0%;
+}
+.item{
+    color: #469f80;
+}
