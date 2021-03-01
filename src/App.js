@@ -1,10 +1,8 @@
 import './App.css';
-import Basket from './component/Basket/Basket';
-import Body from './component/Body/Body';
-import Menu from './component/Menu/Menu';
 import Navbar from './component/Navbar/Navbar';
-import Product from './component/Productinfo/Product';
-import ProductInfoCard from './component/Productinfo/Product/ProductInfoCard';
+import Product from './component/ProductContainer/Productinfo/Product';
+import ProductInfoCard from './component/ProductContainer/Product/ProductInfoCard';
+import ProductContainer from './component/ProductContainer/ProductContainer';
 
 function App() {
   let data = [{
@@ -56,12 +54,11 @@ function App() {
     <div className="App">
       <div className="Grid">
         <Navbar />
-        {/* <Product product={product}/>
-        
-        <ProductInfoCard data={data}/> */}
-        <Menu />
-        <Body data={data} />
+        <ProductContainer product={product} data={data}/>
+        {/* <Menu />
+        <Body data={data} /> */}
         {/* <Basket/> */}
+        {/* <MiniBasket/> */}
       </div>
     </div>
   );

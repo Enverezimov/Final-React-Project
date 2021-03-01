@@ -1,0 +1,85 @@
+.Gridproduct {
+    display: flex;
+}
+.productPhoto {
+    width: 50%;
+    background: #ffffff;
+    height: 100%;
+}
+
+.productInfo {
+    background: rgb(255, 255, 255);
+    box-shadow: -11px 1px 16px -7px rgb(174 174 174 / 20%);
+    width: 50%;
+    padding: 200px 60px;
+}
+
+.img {
+    margin: 16% 27%;
+}
+
+.title {
+    font-family: Lato, sans-serif; 
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(13, 17, 54);
+}
+
+.price {
+    font-family: Lato, sans-serif;
+    font-size:20px;
+    font-weight: 700;
+    color: rgb(13, 17, 54);
+}
+
+.text {
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(66, 69, 97);
+    margin-top: 30px;
+}
+
+.add {
+    padding: 0px 30px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    border-radius: 6px;
+    appearance: none;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    flex-shrink: 0;
+    text-align: center;
+    text-decoration: none;
+    font-family: inherit;
+    border: 0px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 158, 127);
+    height: 48px;
+}
+
+.sortingTitle {
+    margin-top: 60px;
+    display: flex;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+}
+.tags {
+    font-family: Lato, sans-serif;
+    font-size: calc(16px);
+    font-weight: 400;
+    color: rgb(119, 121, 140);
+    margin-right: 8px;
+}
+
+.sort {
+    font-family: Lato, sans-serif;
+    font-size: calc(16px);
+    font-weight: 600;
+    color: rgb(13, 17, 54);
+}

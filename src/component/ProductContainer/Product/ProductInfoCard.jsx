@@ -6,12 +6,15 @@ const ProductInfoCard = (props) => {
     console.log(props);
     return (<>
         <div>
-          <h2 className={css.items}>Related Items</h2>
-        </div>
+            <h2 className={css.items}>Related Items</h2>
+        
+
         <div className={css.Produce}>
-            {props.data.map((el,i)=><ProductCard img={el.img} price={el.price} title={el.title} key={i} />)}
+            {props.data.map((el, i) => <ProductCard img={el.img} price={el.price} title={el.title} key={i} />)}
         </div>
-        </>
+        </div>
+
+    </>
     )
 }
 

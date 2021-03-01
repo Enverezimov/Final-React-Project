@@ -1,0 +1,47 @@
+.Produce{
+    background:rgb(247 247 247);
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+.img {
+    width: 80%;
+    height: 60%;
+    margin: 0% 9%;
+    margin-bottom: 0%;
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    border-radius: 6px;
+    border: 1px solid rgb(243, 243, 243);
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
+    margin: 5px 5px;
+}
+
+.card:hover {
+    box-shadow: rgb(0 0 0 / 8%) 0px 2px 4px;
+    transform: translateY(-5px);
+}
+.price{
+    font-size: 22px;
+    margin: 0% 8%;
+}
+.title{
+    font-size: 21px;
+    margin: 3% 8%;
+    font-weight: 400;
+    color: #949494;
+}
+.btn{
+    width: 85%;
+    height: 10%;
+    margin: 0% 7%;
+}
+.items{
+    background:rgb(247 247 247);
+} 

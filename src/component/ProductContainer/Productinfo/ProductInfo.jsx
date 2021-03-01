@@ -6,7 +6,7 @@ const ProductInfo = (props) => {
     return (
         <div className={css.productInfo}>
             <h1 className={css.title}>{props.product.nameproduct}</h1>
-            <p className={css.price}>{props.product.price}</p>
+            <p className={css.price}>${props.product.price}</p>
             <p className={css.text}>{props.product.titlle2}</p>
             <button className={css.add}><i className='fas fa-shopping-basket'></i>Add To Cart</button>
             <div className={css.sortingTitle}>
