@@ -2,11 +2,12 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 100px 1000px 500px;
-    grid-template-areas:
-    'navbar navbar navbar navbar navbar'
-    'menu body body body body'
-    'menu body body body body';
-    background-color: rgb(189 188 188);
+    grid-template-areas: 'navbar navbar navbar navbar navbar' 'menu body body body body' 'menu body body body body';
+    background-color: white;
 }
 
-
+@media only screen and (max-width: 2890px) and (min-width:320px) {
+    .Grid {
+        background-color: white;
+    }
+}

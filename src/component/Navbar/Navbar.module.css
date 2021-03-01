@@ -28,7 +28,7 @@
 .logo {
     width: 9%;
     height: 19%;
-    margin: 36px 2%;
+    margin: 40px 2%;
 }
 
 .products {
@@ -237,14 +237,15 @@
         width: 50%;
     }
     .lang {
-        width: 5%;
-        margin: 20px 1%;
+        width: 6%;
+        margin: 18px 1%;
+        height: 50px;
         margin-right: -3%;
     }
     .join {
         width: 4%;
-        height: 48%;
-        margin: 21px 2%;
+        height: 50px;
+        margin: 18px 2%;
         margin-left: 0%;
     }
     .btn {
@@ -320,7 +321,7 @@
     }
 }
 
-@media only screen and (max-width:993px) {
+@media only screen and (max-width:993px) and (min-width:630px){
     .dropdown {
         display: none;
     }
@@ -332,7 +333,8 @@
     }
     .logo {
         position: relative;
-        right: 30%;
+        right: 28%;
+        /* margin:8% 0%; */
     }
     .offer {
         display: none;
@@ -347,5 +349,65 @@
         width: 13%;
         height: 53px;
         margin: 2% 3%;
+    }
+}
+@media only screen and (max-width:629px) and (min-width:510px){
+    .dropdown {
+        display: none;
+    }
+    #menuToggle {
+        display: block;
+        margin: 0% 5%;
+    }
+    .search {
+        display: none;
+    }
+    .logo {
+        position: relative;
+        right: 26%;
+    }
+    .offer {
+        display: none;
+    }
+    .help {
+        display: none;
+    }
+    .join {
+        display: none;
+    }
+    .lang {
+        width: 13%;
+        height: 53px;
+        margin: 2% 3%;
+    }
+}
+@media only screen and (max-width:519px) and (min-width:320px){
+    .dropdown {
+        display: none;
+    }
+    #menuToggle {
+        display: block;
+        margin: 0% 5%;
+    }
+    .search {
+        display: none;
+    }
+    .logo {
+        position: relative;
+        right: 15%;
+    }
+    .offer {
+        display: none;
+    }
+    .help {
+        display: none;
+    }
+    .join {
+        display: none;
+    }
+    .lang {
+        width: 25%;
+        height: 53px;
+        margin: 5% 2%;
     }
 }
