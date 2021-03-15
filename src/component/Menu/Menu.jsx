@@ -1,11 +1,9 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom';
 import css from "./Menu.module.css";
 
 const Menu = () => {
     return (
         <div className={css.menu}>
-
             <button className={css.btn}>
                 <i className={`fas fa-apple-alt ${css.s}`}></i>
                 <h1 className={css.fruits}>Fruits&Vegetables</h1>

@@ -1,0 +1,93 @@
+.addfolder {
+    grid-column: 1/6;
+    display: flex;
+    padding: 40px;
+    justify-content: space-between;
+}
+
+.addNavbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 88%;
+    background: aliceblue;
+}
+
+.Add {
+    grid-column: 1/6;
+    padding: 20px 45px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+}
+
+.logo {
+    max-width: 150px;
+    max-height: 30px;
+    margin: 10px 0px;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    background-color: aqua;
+    color: white;
+    padding-right: 25px;
+    padding-left: 25px;
+    width: 145px;
+    height: 50px;
+    border-radius: 6px;
+    font-size: 23px;
+}
+
+.image {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 50px;
+}
+
+.search {
+    height: 36px;
+    width: 375px;
+    outline: none;
+}
+
+.AddGrid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    background-color: blue;
+}
+
+.Card {
+    height: 294px;
+    background: beige;
+    width: 19%;
+    border: 1px solid;
+    border-radius: 8px;
+    margin: 1px 5px;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+}
+
+.cardFoter {
+    padding: 20px;
+}
+
+.title {
+    font-size: 10px
+}
+
+.price {
+    font-size: 20px;
+}
+
+.style{
+    background-color: brown;
+    width: 100%;
+    height: 100%;
+}

@@ -3,10 +3,11 @@ import css from "./Body.module.css";
 import BodyCard from './BodyCard';
 
 const BodyProducts = (props) => {
-    console.log(props);
+   
     return (
-        <div className={css.bodyProduct}>
-           {props.data.map((el,i)=> <BodyCard img={el.img} price={el.price} title={el.title} key={i} />)}
+        
+        <div  className={css.bodyProduct}>
+           {props.data.map((el,i)=> <BodyCard {...el} count={el.count || 0}  key={el.id} setCount={(type) => props.setCount(el, type)}/>)}
         </div>
     )
 }

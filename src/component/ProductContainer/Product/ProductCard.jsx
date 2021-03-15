@@ -1,15 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react'
+import Buttons from '../../Buttons/Buttons'
+import ButtonsActive from '../../ButtonsActive/ButtonsActive'
 import css from './ProductInfoCard.module.css'
 
 
-const ProductCard = (props) => {
-
+const ProductCard = ({count,setCount,price,title,img}) => {
+    
     return (
         <div className={css.card}>
-            <img className={css.img} src={props.img} alt="" />
-            <h6 className={css.price} >{props.price}</h6>
-            <p className={css.title} >{props.title}</p>
-            <button className={css.btn} >a</button>
+            <img className={css.img} src={img} alt="" />
+            <h6 className={css.price} >{price}</h6>
+            <p className={css.title} >{title}</p>
+            
+            {!!count && <ButtonsActive count={count} setCount={setCount}/>}
+            {!count && <Buttons setCount={setCount}/>}
+            
+           {/*  */}
         </div>
     )
 

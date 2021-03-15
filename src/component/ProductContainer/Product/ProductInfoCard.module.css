@@ -11,6 +11,11 @@
     margin-bottom: 0%;
 }
 
+
+
+
+
+
 .card {
     background-color: rgb(255, 255, 255);
     overflow: hidden;
@@ -21,6 +26,7 @@
     transition: all 0.3s ease-in-out 0s;
     cursor: pointer;
     margin: 5px 5px;
+    height: 303px;
 }
 
 .card:hover {
@@ -36,11 +42,6 @@
     margin: 3% 8%;
     font-weight: 400;
     color: #949494;
-}
-.btn{
-    width: 85%;
-    height: 10%;
-    margin: 0% 7%;
 }
 .items{
     background:rgb(247 247 247);

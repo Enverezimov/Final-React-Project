@@ -1,0 +1,41 @@
+.buttons {
+    height: 36px;
+    margin: 0% 5%;
+    border-radius: 6px;
+    transition: all 0.35s ease-in-out 0s;
+    cursor: pointer;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(243, 243, 243);
+    padding: 0px;
+    border: none;
+    overflow: hidden;
+    text-align: center;
+}
+.box{
+    box-sizing: border-box;
+    min-width: 0px;
+    margin: 0px;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+}
+.add{
+    padding-left: 16px;
+    padding-right: 16px;
+    height: 36px;
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    transition: all 0.35s ease-in-out 0s;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.add:hover{
+    background-color: rgb(0, 158, 127);
+    color: rgb(255, 255, 255);
+}
+.buttons:hover{
+    background-color: rgb(1, 147, 118);
+    border-color: rgb(1, 147, 118);
+    color: rgb(255, 255, 255);
+}

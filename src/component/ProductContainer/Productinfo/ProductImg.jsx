@@ -1,11 +1,11 @@
 import React from 'react'
 import css from './Product.module.css'
 
-const ProductImg = (props) => {
-    console.log('a',props.product);
+const ProductImg = ({product}) => {
+
     return (
         <div className={css.productPhoto}>
-            <img className={css.img} src={props.product.img} />
+            <img className={css.img} src={product.img} />
         </div>
     )
 }

@@ -6,7 +6,7 @@
 }
 .Sebet{
     width: 420px;
-    height: auto;
+    height: 667px;
     background-color: rgb(255, 255, 255);
     position: fixed;
     bottom: 0px;
@@ -21,7 +21,7 @@
 .icons {
     position: fixed;
     right: 2%;
-    color: #cac9c9;
+    color: #f80000;
     margin-top: 16px;
 }
 
@@ -50,7 +50,7 @@
 .faShoppingBasket {
     font-size: 250px;
     color: rgb(0, 158, 127);
-    margin: 24% 17%;
+    margin: 1% 17%;
     margin-bottom: 5%;
 }
 
@@ -62,9 +62,6 @@
 }
 
 .voucher {
-    /* border: 0px; */
-    /* outline: 0px; */
-    /* box-shadow: none; */
     background-color: transparent;
     text-align: center;
     margin: 20px 0px;
@@ -73,15 +70,15 @@
     font-weight: 700;
     color: rgb(0, 158, 127);
     transition: color 0.35s ease 0s;
+    position: relative;
+    top: 319px;
 }
 
 .BasketBottom {
     height: 48px;
     width: calc(100% - 30px);
     display: flex;
-    -webkit-box-align: center;
     align-items: center;
-    -webkit-box-pack: justify;
     justify-content: space-between;
     background-color: rgb(0, 158, 127);
     padding: 0px;
@@ -92,6 +89,8 @@
     cursor: pointer;
     margin-bottom: 15px;
     margin-left: 15px;
+    position: relative;
+    top: 318px;
 }
 
 .Checkout {
@@ -133,4 +132,71 @@
 }
 .item{
     color: #469f80;
+}
+.cardItem{
+    font-size: 15px;
+    font-weight: 700;
+    padding: 15px 25px;
+    border-bottom: 1px solid rgb(247, 247, 247);
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.counterBox{
+    display: flex;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 200px;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    overflow: hidden;
+    flex-shrink: 0;
+    width: 30px;
+    height: 90px;
+    flex-direction: column-reverse;
+    background-color: rgb(247, 247, 247);
+    color: rgb(13, 17, 54);
+}
+.btn{
+    border: none;
+    background-color: transparent;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    height: 100%;
+    padding: 10px;
+    cursor: pointer;
+    color: rgb(119, 121, 140);
+}
+.img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    margin: 0px 15px;
+}
+.cardInfo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+.cardPrice{
+    color: rgb(13, 17, 54);
+    margin-left: auto;
+}
+.iconClose{
+    padding: 5px;
+    border: 0px;
+    outline: 0px;
+    margin-left: 15px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.25);
+    transition: all 0.4s ease 0s;
+    background-color: transparent;
+}
+.iconClose:hover{
+    color: red;
 }

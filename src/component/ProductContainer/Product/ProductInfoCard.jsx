@@ -2,15 +2,15 @@ import React from 'react'
 import ProductCard from './ProductCard'
 import css from './ProductInfoCard.module.css'
 
-const ProductInfoCard = (props) => {
-    console.log(props);
+const ProductInfoCard = ({setCount,data}) => {
+    
     return (<>
         <div>
             <h2 className={css.items}>Related Items</h2>
         
 
         <div className={css.Produce}>
-            {props.data.map((el, i) => <ProductCard img={el.img} price={el.price} title={el.title} key={i} />)}
+            {data.map((el, i) => <ProductCard count={el.count || 0} {...el} key={el.id} setCount={(type) => setCount(el, type)}/>)}
         </div>
         </div>
 
