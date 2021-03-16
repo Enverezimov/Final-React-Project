@@ -13,9 +13,9 @@ const Body = (props) => {
         <div className={css.body}>
             <BodyNavbar />
             <BodyProducts data={props.data} setCount={props.setCount} />
-            <button className={css.loadMore}>
+            {/* <button className={css.loadMore}>
                 load more
-            </button>
+            </button> */}
         </div>
     )
 }

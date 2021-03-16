@@ -13,9 +13,10 @@ const BasketCard = ({ onReset, setCount, items }) => {
                     />
                     <img className={css.img} src={item.img} alt="" />
                     <div className={css.cardInfo}>
-
+                        <p>{item.title}</p>
+                        <p className={css.pPrice}>${item.price}</p>
                     </div>
-                    <span className={css.cardPrice}></span>
+                    <span className={css.cardPrice}>${item.price}</span>
                     <i onClick={onReset.bind(null, item)} className={`fas fa-times ${css.iconClose}`}></i>
                 </div>
             ))}

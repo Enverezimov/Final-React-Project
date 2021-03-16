@@ -4,7 +4,8 @@
     background-color: rgb(255, 255, 255);
     box-sizing: content-box;
 }
-.Sebet{
+
+.Sebet {
     width: 420px;
     height: 667px;
     background-color: rgb(255, 255, 255);
@@ -90,7 +91,6 @@
     margin-bottom: 15px;
     margin-left: 15px;
     position: relative;
-    top: 318px;
 }
 
 .Checkout {
@@ -125,15 +125,18 @@
     color: rgb(0, 158, 127);
     margin-right: 2px;
 }
-.price h1{
+
+.price h1 {
     font-size: 20px;
     text-align: center;
     margin: 6% 0%;
 }
-.item{
+
+.item {
     color: #469f80;
 }
-.cardItem{
+
+.cardItem {
     font-size: 15px;
     font-weight: 700;
     padding: 15px 25px;
@@ -142,7 +145,8 @@
     -webkit-box-align: center;
     align-items: center;
 }
-.counterBox{
+
+.counterBox {
     display: flex;
     font-size: 15px;
     font-weight: 700;
@@ -159,7 +163,8 @@
     background-color: rgb(247, 247, 247);
     color: rgb(13, 17, 54);
 }
-.btn{
+
+.btn {
     border: none;
     background-color: transparent;
     display: flex;
@@ -172,22 +177,26 @@
     cursor: pointer;
     color: rgb(119, 121, 140);
 }
-.img{
+
+.img {
     width: 60px;
     height: 60px;
     object-fit: cover;
     margin: 0px 15px;
 }
-.cardInfo{
+
+.cardInfo {
     display: flex;
     flex-direction: column;
     margin-left: 15px;
 }
-.cardPrice{
+
+.cardPrice {
     color: rgb(13, 17, 54);
     margin-left: auto;
 }
-.iconClose{
+
+.iconClose {
     padding: 5px;
     border: 0px;
     outline: 0px;
@@ -197,6 +206,30 @@
     transition: all 0.4s ease 0s;
     background-color: transparent;
 }
-.iconClose:hover{
+
+.iconClose:hover {
     color: red;
+}
+
+.pPrice {
+    color: aqua;
+}
+
+.BasketCard {
+    overflow-y: scroll;
+    width: 100%;
+    height: 430px;
+}
+
+.BasketCard::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+
+.BasketCard {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
 }

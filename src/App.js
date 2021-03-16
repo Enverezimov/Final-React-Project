@@ -38,7 +38,7 @@ function App() {
     dispatch({ type, payload: { ...element, count } })
   }
   const getData = () => {
-    return data.data.slice(0, 4)
+    return data.data.slice(0, 10)
   }
   return (
     <div className="App">
@@ -56,8 +56,10 @@ function App() {
           items={getCardItems()}
           onReset={(item) => dispatch({ type: 'resetCount', payload: item })}
           onClose={() => setEditmode(false)}
+          price={getPrice()}
           setCount={setCountToProduct} />}
-        {!editMode && <MiniBasket items={getCardItems()}
+        {!editMode && <MiniBasket
+          items={getCardItems()}
           price={getPrice()}
           onClick={() => setEditmode(true)} />}
         {/* <AddFolder /> */}
